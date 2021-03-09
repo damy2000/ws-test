@@ -15,9 +15,9 @@ client.on('message', function (msg, info) {
 //WEBSOCKET
 const WebSocket = require('ws');
 
-//const ws = new WebSocket('ws://127.0.0.1:5001');
-const ws = new WebSocket('ws://test.ipermateria.it:5001');
-//const ws = new WebSocket('ws://PrintCLOUD.damianotriscian.repl.co:5001');
+//const ws = new WebSocket('ws://127.0.0.1:8080');
+//const ws = new WebSocket('wss://test.ipermateria.it');
+const ws = new WebSocket('wss://PrintCLOUD.damianotriscian.repl.co');
 
 //alla connessione al server
 ws.on('open', function open() {
